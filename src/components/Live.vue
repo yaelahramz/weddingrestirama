@@ -17,11 +17,11 @@
         وَمِنْ اٰيٰتِهٖٓ اَنْ خَلَقَ لَكُمْ مِّنْ اَنْفُسِكُمْ<br /> اَزْوَاجًا لِّتَسْكُنُوْٓا اِلَيْهَا وَجَعَلَ بَيْنَكُمْ<br /> مَّوَدَّةً وَّرَحْمَةًۗ اِنَّ فِيْ ذٰلِكَ لَاٰيٰتٍ لِّقَوْمٍ يَّتَفَكَّرُوْنَ ۝٢١ <br/> QS Ar Rum 21
       </p>
       <p>
-        Di antara tanda-tanda (kebesaran)-Nya ialah bahwa<br />
-        Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri<br />
-        agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu <br />
-        rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu<br />
-         benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.<br />
+        Di antara tanda-tanda (kebesaran)-Nya ialah bahwa
+        Dia menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri
+        agar kamu merasa tenteram kepadanya. Dia menjadikan di antaramu
+        rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian itu
+         benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
       </p>
       <p class = "header">
         Sabtu, 27 Juli 2024<br />

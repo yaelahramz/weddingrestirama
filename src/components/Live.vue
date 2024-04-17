@@ -30,7 +30,6 @@
         Blok B2 No.5 RT.009 RW.008<br/>
         Cibitung, Bekasi
       </p>
-      <p>"<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.88736584041757!2d107.0981701722262!3d-6.237632739527339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698f62e0231a89%3A0x3d76d6b587b6cb34!2sJl.%20Taman%20Wanasari%20Indah%20No.2%2C%20Wanasari%2C%20Kec.%20Cibitung%2C%20Kabupaten%20Bekasi%2C%20Jawa%20Barat%2017520%2C%20Indonesia!5e0!3m2!1sid!2sjp!4v1712755017086!5m2!1sid!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"</p>
       <p>
         Hadiri secara online dan rayakan melalui obrolan.
       </p>

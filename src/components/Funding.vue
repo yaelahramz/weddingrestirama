@@ -40,42 +40,53 @@ export default {
 </script>
 
 <template>
-  <form
-    name="ask-question"
-    method="post"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
+  <v-form @submit.prevent="handleSubmit">
+    <two-button-modal
+      title="Send a message"
+      @cancel="$emit('cancel')"
     >
-    <input type="hidden" name="form-name" value="ask-question" />
-    <label v-for="(panelist, index) in panelists" :key="index">
-      <input
-        type="radio"
-        name="panelist"
-        :value="panelist"
-        @input="ev => updatePanelist"
-        :checked="panelist === currentPanelist"
+      <v-text-field
+        v-model="form.name"
+        label="Your Name"
       />
-      <span>{{ panelist }}</span>
-    </label>
-    ...
-    <button>Submit</button>
-  </form>
+      <v-text-field
+        v-model="form.email"
+        label="Email"
+      />
+      <v-textarea
+        v-model="form.message"
+        label="Message"
+      />
+    </two-button-modal>
+  </v-form>
 </template>
+
+
 <script>
+import TwoButtonModal from './TwoButtonModal.vue';
 export default {
-  name: "QAForm",
-  methods: {
-    updatePanelist (ev) {
-      this.currentPanelist = ev.target.value
-    }
+  components: {
+    TwoButtonModal,
   },
-  data () {
-    return {
-      panelists: ['Evan You', 'Chris Fritz'],
-      currentPanelist: 'Evan You'
-    }
-  }
-}
+  data: () => ({
+    form: {
+      name: '',
+      email: '',
+      message: '',
+    },
+  }),
+  methods: {
+    resetForm() {
+      this.$set(this.form, 'name', '');
+      this.$set(this.form, 'email', '');
+      this.$set(this.form, 'message', '');
+    },
+    handleSubmit() {
+      // TODO: How to send this to Netlify?
+      this.resetForm();
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>

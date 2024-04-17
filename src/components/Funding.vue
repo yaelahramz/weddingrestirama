@@ -39,56 +39,6 @@ export default {
 };
 </script>
 
-<template>
-  <v-form @submit.prevent="handleSubmit">
-    <two-button-modal
-      title="Send a message"
-      @cancel="$emit('cancel')"
-    >
-      <v-text-field
-        v-model="form.name"
-        label="Your Name"
-      />
-      <v-text-field
-        v-model="form.email"
-        label="Email"
-      />
-      <v-textarea
-        v-model="form.message"
-        label="Message"
-      />
-    </two-button-modal>
-  </v-form>
-</template>
-
-
-<script>
-import TwoButtonModal from './TwoButtonModal.vue';
-export default {
-  components: {
-    TwoButtonModal,
-  },
-  data: () => ({
-    form: {
-      name: '',
-      email: '',
-      message: '',
-    },
-  }),
-  methods: {
-    resetForm() {
-      this.$set(this.form, 'name', '');
-      this.$set(this.form, 'email', '');
-      this.$set(this.form, 'message', '');
-    },
-    handleSubmit() {
-      // TODO: How to send this to Netlify?
-      this.resetForm();
-    },
-  },
-};
-</script>
-
 <style lang="scss" scoped>
 .funding {
   padding-top: 48px;

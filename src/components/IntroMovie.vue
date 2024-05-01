@@ -9,7 +9,7 @@
         :autoplay="getOS() !== 'iOS'"
         controls
       >
-        <source src="https://www.dropbox.com/scl/fi/bn60o17bg9u7t2aznl8st/intro-Made-with-Clipchamp_1714572408710.mp4?rlkey=858n8h18vxclki83by74rsgum&dl=0" type="video/mp4" />
+        <source src="/intro.mp4" type="video/mp4" />
       </video>
     </div>
   </div>
